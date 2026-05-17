@@ -1,0 +1,12 @@
+name: Documentation feedback
+description: Report a problem with the public PromptGuard Scan MCP documentation.
+title: "Docs: "
+labels: [documentation]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Do not include MCP tokens, customer data, private scan reports, or secrets.
+    validations:
+      required: true
