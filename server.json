@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "space.promptguardscan/promptguardscan-mcp",
+  "title": "PromptGuard Scan MCP",
+  "description": "Paid remote MCP for LLM security scans, jailbreak checks, analytics, checkout, and readiness.",
+  "version": "0.1.0",
+  "websiteUrl": "https://promptguardscan.space/",
+  "icons": [
+    {
+      "src": "https://promptguardscan.space/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://promptguardscan.space/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token issued after checkout and MCP token claim.",
+          "isRequired": true,
+          "isSecret": true,
+          "placeholder": "Bearer <token>"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "serverCardUrl": "https://promptguardscan.space/.well-known/mcp/server-card.json",
+      "accessModel": "paid_mcp_bearer_token"
+    }
+  }
+}
