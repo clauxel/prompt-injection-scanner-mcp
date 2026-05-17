@@ -1,0 +1,11 @@
+# PromptGuard Scan MCP
+
+PromptGuard Scan MCP is a paid remote Model Context Protocol server for LLM security testing.
+
+Website: https://promptguardscan.space/
+MCP endpoint: https://promptguardscan.space/mcp
+Server card: https://promptguardscan.space/.well-known/mcp/server-card.json
+Official MCP Registry name: space.promptguardscan/promptguardscan-mcp
+Smithery qualified name: clauxel/prompt-injection-scanner-mcp
+
+Use cases: prompt injection scanning, jailbreak detection, hidden instruction leakage checks, unsafe tool-use review, AI app security audit, LLM vulnerability scanner, and CI/CD release-gate evidence.
