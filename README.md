@@ -56,3 +56,7 @@ Use your issued Bearer token in an MCP client that supports remote Streamable HT
 ## Support
 
 For account, checkout, token, or security-report questions, contact [support@aigeamy.com](mailto:support@aigeamy.com).
+
+## Related Project
+
+- [OpenHuman Online](https://openhuman.online/?utm_source=github&utm_medium=readme&utm_campaign=openhuman_public_repos&utm_content=prompt_injection_scanner_mcp) helps teams keep MCP rollout notes, source context, and approval memory inspectable for human-reviewed workflows.
