@@ -1,0 +1,24 @@
+{
+  "brand": "PromptGuard Scan MCP",
+  "domain": "promptguardscan.space",
+  "tagline": "Prompt injection and LLM security testing workflows for AI apps, agents, RAG systems, and release gates.",
+  "description": "Prompt injection and LLM security testing workflows for AI apps, agents, RAG systems, and release gates.",
+  "audience": "AI product teams, security engineers, and release owners testing prompts and tool-use behavior",
+  "pages": [
+    [
+      "prompt-injection-scanner",
+      "Prompt injection scanner for LLM apps",
+      "Scan prompts, hidden instructions, tool calls, retrieval context, and release changes for injection risk."
+    ],
+    [
+      "llm-security-testing-tool",
+      "LLM security testing tool",
+      "Build repeatable tests for jailbreak behavior, unsafe instruction following, and security regression evidence."
+    ],
+    [
+      "ai-app-security-audit",
+      "AI app security audit checklist",
+      "Review an AI app release for prompt safety, retrieval boundaries, tool permissions, and buyer-ready evidence."
+    ]
+  ]
+}

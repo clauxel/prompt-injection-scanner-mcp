@@ -1,0 +1,23 @@
+name = "promptguardscan-hotword-pages"
+main = "worker/hotwords.js"
+compatibility_date = "2026-06-17"
+workers_dev = true
+routes = [
+  { pattern = "promptguardscan.space/prompt-injection-scanner*", zone_name = "promptguardscan.space" },
+  { pattern = "promptguardscan.space/llm-security-testing-tool*", zone_name = "promptguardscan.space" },
+  { pattern = "promptguardscan.space/ai-app-security-audit*", zone_name = "promptguardscan.space" },
+  { pattern = "promptguardscan.space/sitemap.xml*", zone_name = "promptguardscan.space" },
+  { pattern = "promptguardscan.space/robots.txt*", zone_name = "promptguardscan.space" },
+  { pattern = "promptguardscan.space/llms.txt*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/prompt-injection-scanner*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/llm-security-testing-tool*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/ai-app-security-audit*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/sitemap.xml*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/robots.txt*", zone_name = "promptguardscan.space" },
+  { pattern = "www.promptguardscan.space/llms.txt*", zone_name = "promptguardscan.space" }
+]
+
+[assets]
+directory = "./public-hotwords"
+binding = "ASSETS"
+run_worker_first = true
